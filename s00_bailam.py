@@ -27,6 +27,12 @@ hi(None, None)        | Hi!
 #endregion debai
 
 #region bailam
-def hi(name,gender):
-  return 'todo'
+def hi(name, gener):
+  if gener == 'f':
+    return f"Hi Ms {name}!"
+  elif gener == 'm':
+    return f"Hi Mr {name}!"
+  elif gener == None and name != None:
+    return f"Hi {name}!"
+  return f"Hi!"
 #endregion bailam
